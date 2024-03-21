@@ -1,13 +1,12 @@
 package com.thymeleafexamples.thymeleaf3.config;
 
 import javax.servlet.ServletContext;
-import javax.servlet.annotation.WebListener;
+
 import org.thymeleaf.TemplateEngine;
 
 /**
  * Store and retrieves Thymeleaf TemplateEngine into the application servlet context.
  */
-@WebListener
 public class TemplateEngineUtil {
 
     private static final String TEMPLATE_ENGINE_ATTR = "com.thymeleafexamples.thymeleaf3.TemplateEngineInstance";
